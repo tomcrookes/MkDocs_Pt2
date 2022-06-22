@@ -1,0 +1,93 @@
+site_name: Enterprise Monitoring Wiski
+site_url: https://git.bcbssc.com/pages/InformationSystems/Enterprise_Monitoring_Wiski/
+theme: readthedocs
+extra_css:
+    - css/extra.css
+
+# for instruction on admonition and pydownx, go to https://squidfunk.github.io/mkdocs-material/reference/admonitions/#admonition
+markdown_extensions:
+  - admonition
+  - smarty
+  - abbr
+
+nav:
+    - 'Monitoring Systems Release Notes': 'release-notes.md'
+    - 'Splunk':
+        - 'Application System': 'splunk/app.md'
+        - 'System Support': 'splunk/support.md'
+        - 'Infrastructure': 'splunk/splunk-server-list.md'
+        - 'Awesome Splunk Queries': 'splunk/awesome-splunk-queries.md'
+        - 'Splunk Automation': splunk/em-splunk-automation.md
+        - 'Splunk App Deployment': splunk/splunk-apps-deployment.md
+        - 'Splunk Horcrux': 'splunk/em-splunk-horcrux.md'
+        - 'Using Splunk and Git': 'special-case/add-report-splunk-github.md'  
+        - 'General Support': 'splunk/splunk-general-support.md'
+        - 'Splunk Alerts': 'splunk/splunk-alerts.md'
+        - 'Splunk Reports': 'splunk/splunk-reports.md'
+        - 'Splunk Oddities and Curiosities': 'splunk/splunk-oddities-curiosities.md'
+        - 'Splunk Synthetic': 'splunk/splunk-synthetic.md'
+        - 'Splunk ITSI': 'splunk/splunk-itsi.md'
+    - 'AppDynamics':
+        - 'Application System': 'appd/app.md'
+        - 'System Support': 'appd/support.md'
+        - 'AppDynamics Customers': 'appd/customers.md'
+        - 'AppDynamics Vendor Contacts': 'appd/contacts.md'
+        - 'AppDynamics Useful Web Pages': 'appd/webpages.md'
+        - 'AppDynamics License Info': 'appd/licenses.md'
+        - 'AppDynamics Upgrade Notes': 'appd/upgrade.md'
+        - 'AppDynamics Synthetic': 'appd/appd-synthetic.md'
+    - 'CA APM':
+        - 'Application System': 'ca-apm/app.md'
+        - 'System Support': 'ca-apm/support.md'
+    - 'Micro Focus APM':
+        - 'Application System': 'mf-apm/app.md'
+        - 'System Support': 'mf-apm/support.md'
+    - 'Solarwinds':
+        - 'Application System': 'solarwinds/app.md'
+        - 'System Support': 'solarwinds/support.md'
+    - 'Quest Foglight':
+        - 'Application System': 'quest-foglight/app.md'
+        - 'System Support': 'quest-foglight/support.md'
+    - 'Sterling Control Center':
+        - 'Application System': 'ibm-scc/app.md'
+        - 'System Support': 'ibm-scc/support.md'
+        - 'SLC Workflows': 'ibm-scc/slc_workflows.md'
+    - 'CA Sysview':
+        - 'Application System': 'ca-sysview/app.md'
+        - 'System Support': 'ca-sysview/support.md'
+    - 'IBM Tivoli Monitoring':
+        - 'Application System': 'ibm-tm/app.md'
+        - 'System Support': 'ibm-tm/support.md'
+        - 'IBM Tivoli Customers': 'ibm-tm/customers.md'
+        - 'IBM Tivoli Vendor Contacts': 'ibm-tm/contacts.md'
+        - 'IBM Useful Web Pages': 'ibm-tm/webpages.md'
+        - 'IBM License Info': 'ibm-tm/licenses.md'
+    - 'Omegamon':
+        - 'Creating User': 'omegamon/adding-users.md'
+    - 'On Call Documentation':
+        - 'Morning/IPL Checks': 'on-call/morning-and-ipl-checks.md'
+    - 'MKDocs Test':
+        - 'Creating a New Project': 'mkdocs/new-project.md'
+        - 'Setting Themes': 'mkdocs/themes.md'
+        - 'Text Formatting': 'mkdocs/formatting.md'
+        - 'Admonition': 'mkdocs\admonition.md'
+    - 'New Technicians':
+        - 'Closing a ticket' : 'new-tech/closing-tickets.md'
+        - 'My Very First Ticket' : 'new-tech/my-very-first-ticket.md'
+        - 'Ticket Response Codes' : 'new-tech/ticket-response-codes.md'
+        
+    - 'Special Documentation':
+        - 'Team Lead Notes': 'special-case/tl-notes.md'
+        - 'Team Expectations': 'special-case/team-expectations.md'  
+        - 'Working Tickets Info': 'special-case/team-ticket-work-expectations.md'      
+        - 'MRD Form': 'special-case/em-mrd-form'
+        - 'Ticket Assignments': 'special-case/ticket-assignment.md'
+        - 'Monitoring Scripts': 'special-case/em-scripts.md'
+        - 'Update PPS in BOIT': 'special-case/em-pps-baselines.md'
+        - 'Downtime Tool Docs': 'special-case/misc-downtime-tool-cheat.md'
+        - 'RMTx Roadmap Work': 'rmtx/rmtx-roadmaps.md'
+        - 'GitHub Introduction': 'github/introduction.md'
+        - 'Github Repository Clone': 'github/clone.md' 
+        - 'Github Pull Request (PR)': 'github/pull request.md'
+        - 'Github Upload Files to Respository': 'github/upload.md'
+
